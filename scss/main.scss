@@ -1,0 +1,18 @@
+
+@import "_variables.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "makerspace-tischkicker";
+
+.img-w-100 img,
+.img-w-100 svg{
+  width: 100%;
+  height: auto;
+}
+
+
+
+#wpfooter {
+  display: block !important;
+}

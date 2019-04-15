@@ -27,7 +27,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 function load_styles() {
-    wp_enqueue_script('ms-bootstrap-js', plugins_url('node_modules/bootstrap/dist/js/bootstrap.js',__FILE__ ));
+    wp_enqueue_script('ms-bootstrap-js', plugins_url('bootstrap.js',__FILE__ ));
     wp_enqueue_style('makerspace_admin_styles', plugins_url('styles/main.css',__FILE__ ));
 }
 

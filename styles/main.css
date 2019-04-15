@@ -7617,6 +7617,20 @@ a.text-textillabor:hover, a.text-textillabor:focus {
   text-align: center;
   vertical-align: center; }
 
+.device-license {
+  border-top: solid 7px red;
+  width: 18rem; }
+
+.has-device-license {
+  border-top: solid 7px green; }
+
+.ms-side-headline {
+  font-size: 23px;
+  font-weight: 400;
+  margin: 0;
+  padding: 9px 0 4px 0;
+  line-height: 29px; }
+
 .img-w-100 img,
 .img-w-100 svg {
   width: 100%;
